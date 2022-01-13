@@ -417,6 +417,126 @@ h1{
     margin: 0;
 }
 
+/*container_2*/
+
+.container_2{
+    display:flex;
+    flex-direction:column;
+    margin-top: 25px;
+}
+
+.container_2 h2{
+    font-size: 23px;
+    margin:15px;
+}
+.container_2 h4{
+    display:flex;
+    align-items: center;
+    padding-left: 15px;;
+}
+.wrap {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:0;
+}
+.wrap a{
+    width:25%;
+    height:100%;
+}
+.column_1{
+    width:25%
+}
+.column_2{
+    width:25%;
+}
+.card_container_2{
+    margin: 15px;
+    height:515px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0px 5px 20px rgba(153, 153, 153, 0.301);
+
+}
+.card_container_2 img{
+    height:90%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card_container_2_large{
+    height:300px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0px 5px 20px rgba(153, 153, 153, 0.301);
+    margin:15px;
+}
+.card_container_2_large img{
+    height:80%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card_container_2_small{
+    height:200px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0px 5px 20px rgba(153, 153, 153, 0.301);
+    margin:15px;
+}
+.card_container_2_small img{
+    height:70%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.card_container_2_medium{
+    margin: 15px;
+    height:250px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0px 5px 20px rgba(153, 153, 153, 0.301);
+}
+.card_container_2_medium img{
+    height:75%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+
+/*FOOTER*/
+
+footer{
+    margin-top: 50px;
+    padding: 0 25px 0 25px;
+    background-color: #F2F2F2;
+    display:flex;
+ 
+}
+footer ul{
+    padding:0;
+}
+footer ul li{
+    margin:25px 0 25px 0;
+}
+.section_footer_1{
+    flex:1;
+}
+.section_footer_2{
+    flex:1;
+}
+.section_footer_3{
+    flex:1;
+}
 
 
 
@@ -562,6 +682,10 @@ h1{
     }
     .wrap .column_2 a{
         width:100%;
+    }
+
+    footer{
+        flex-direction:column;
     }
    
 }
